@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 40px 10px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.btn-scroll-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+.example-card {
+  max-width: 500px;
+  margin-bottom: 30px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
